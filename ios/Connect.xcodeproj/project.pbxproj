@@ -14,6 +14,7 @@
 		381341A16F987A567C76A7AF /* libPods-Connect-ConnectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3D3537D8C00BF5332C226 /* libPods-Connect-ConnectTests.a */; };
 		4EF542547ED56A5DF4309DE8 /* libPods-Connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1608DDFC76746EE560F9A3 /* libPods-Connect.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		CE44F94A29A90443006C78B3 /* app_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE44F94929A90443006C78B3 /* app_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		8F1608DDFC76746EE560F9A3 /* libPods-Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		977E7BABDA71A83DC0AFFFF6 /* Pods-Connect-ConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect-ConnectTests.release.xcconfig"; path = "Target Support Files/Pods-Connect-ConnectTests/Pods-Connect-ConnectTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E3D3537D8C00BF5332C226 /* libPods-Connect-ConnectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Connect-ConnectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE44F94929A90443006C78B3 /* app_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_bg.png; path = ../assets/images/app_bg.png; sourceTree = "<group>"; };
 		E7FF26C915E2EC9D8ECC3A59 /* Pods-Connect-ConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect-ConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-Connect-ConnectTests/Pods-Connect-ConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				CE44F94929A90443006C78B3 /* app_bg.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -145,7 +148,6 @@
 				E7FF26C915E2EC9D8ECC3A59 /* Pods-Connect-ConnectTests.debug.xcconfig */,
 				977E7BABDA71A83DC0AFFFF6 /* Pods-Connect-ConnectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,6 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = Inesoconnet;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				CE44F94A29A90443006C78B3 /* app_bg.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
